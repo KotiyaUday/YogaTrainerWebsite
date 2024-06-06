@@ -1,0 +1,659 @@
+/* Universal CSS.*/
+html{
+scroll-behavior : smooth;
+background-color: e5e0e0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Home section CSS.*/
+
+#index{
+/*border : 2px solid green;*/
+height:100%;
+width: 100%;
+background : url('backgroung.png');
+background-repeat : no-repeat;
+background-position:center;
+background-size:cover;
+z-index:11;
+position:relative;
+}
+
+#logo{
+/*border : 2px solid red;*/
+display:inline-block;
+margin:20px 35px;
+padding:0px 0px;
+}
+
+#logo img{
+height:10%;
+width:75%;
+border-radius:50%;
+}
+
+#menubar{
+display:inline-block;
+/*border : 2px solid blue;*/
+margin:20px 35px;
+padding:0px 0px;
+float: right;
+}
+
+#menubar ul li{
+margin: 0px 20px;
+list-style:none;
+display: inline-block;
+}
+
+#menubar ul li a{
+text-decoration:none;
+font-size: 23px;
+color: blue;
+}
+
+#menubar ul li a:hover{
+text-decoration:underline;
+font-size: 25px;
+color: 33ad3d;
+}
+
+#actual{
+/*border: 2px solid black;*/
+display:inline-block;
+color:2813d7;
+margin:130px 250px;
+padding-right:350px;
+font-size: 35px;
+line-height: 40px;
+text-align: center;
+}/*Home section CSS. Completed*/
+
+/* Go To Top Button CSS.*/
+.btn{
+text-decoration: none;
+border:2px solid red;
+border-radius: 50%;
+display: inline-block;
+height: 38px;
+width: 35px;
+position: fixed;
+right: 10px;
+bottom: 250px;
+z-index:1;
+}
+
+.btn img{
+width: 35px;
+}
+
+.btn:hover{
+transform: scale(1.20);
+}
+
+/* below to start about yog asection css. */
+#aboutyoga{
+/*border: 2px solid red;*/
+height: 400%;
+width: 100%;
+/*background-color: e5e0e0;*/
+}
+
+#yoga{
+/*border: 2px solid blue;*/
+margin: 0px 0px;
+padding: 50px 50px;
+/*background-color: green;*/
+display: flex;
+}
+
+#image1{
+/*border: 2px solid brown;*/
+display: inline-block;
+height: 40%;
+width: 40%;
+margin: 55px 80px 55px 0px;
+padding:0px 0px;
+}
+
+#image1 img{
+height: 100%;
+width: 90%;
+margin-left: 25%;
+border-radius: 20%;
+box-shadow : -8px -10px 25px 15px gray;
+}
+
+#text1{
+/*border: 2px solid black;*/
+display: inline-block;
+height: 40%;
+width: 40%;
+font-size: 25px;
+text-justify: left;
+padding: 70px 60px;
+text-shadow : -25px -20px 7px gray;
+}
+
+#text1 h1{
+font-size:45px;
+text-shadow : -25px -20px 7px gray;
+} 
+
+#history{
+/*border: 2px solid blue;*/
+margin: 0px 0px;
+padding: 50px 50px;
+/*background-color: green;*/
+display: flex;
+}
+
+#image2{
+/*border: 2px solid brown;*/
+display: inline-block;
+height: 400px;
+width: 40%;
+margin: 55px 0px 55px 80px;
+padding:0px 0px;
+}
+
+#image2 img{
+height: 100%;
+width: 90%;
+margin-right: 25%;
+border-radius: 20%;
+box-shadow : -8px -10px 25px 15px gray;
+}
+
+#text2{
+/*border: 2px solid black;*/
+display: inline-block;
+height: 40%;
+width: 40%;
+font-size: 25px;
+text-justify: left;
+padding: 70px 60px;
+text-shadow : -25px -20px 7px gray;
+}
+
+#text2 h1{
+text-shadow : -25px -20px 7px gray;
+font-size:40px;
+}
+
+#type{
+/*border: 2px solid blue;*/
+margin: 0px 0px;
+padding: 50px 50px;
+/*background-color: green;*/
+display: flex;
+}
+
+#image3{
+/*border: 2px solid brown;*/
+display: inline-block;
+height: 400px;
+width: 40%;
+margin: 55px 0px 55px 80px;
+padding:0px 0px;
+}
+
+#image3 img{
+height: 100%;
+width: 90%;
+margin-right: 25%;
+border-radius: 20%;
+box-shadow : -8px -10px 25px 15px gray;
+}
+
+#text3{
+/*border: 2px solid black;*/
+display: inline-block;
+height: 40%;
+width: 40%;
+font-size: 25px;
+text-justify: left;
+padding: 70px 60px;
+text-shadow : -25px -20px 7px gray;
+}
+
+#text3 h1{
+text-shadow : -25px -20px 7px gray;
+font-size:40px;
+}
+
+#benefit{
+/*border: 2px solid blue;*/
+margin: 0px 0px;
+padding: 50px 50px;
+/*background-color: green;*/
+display: flex;
+}
+
+#image4{
+/*border: 2px solid brown;*/
+display: inline-block;
+height: 400px;
+width: 40%;
+margin: 55px 0px 55px 80px;
+padding:0px 0px;
+}
+
+#image4 img{
+height: 100%;
+width: 90%;
+margin-right: 25%;
+border-radius: 20%;
+box-shadow : -8px -10px 25px 15px gray;
+}
+
+#text4{
+/*border: 2px solid black;*/
+display: inline-block;
+height: 40%;
+width: 40%;
+font-size: 25px;
+text-justify: left;
+padding: 70px 60px;
+text-shadow : -25px -20px 7px gray;
+}
+
+#text4 h1{
+text-shadow : -25px -20px 7px gray;
+font-size:40px;
+}
+
+/* India's best yoga trainer section.*/
+#indtra{
+/*border: 2px solid red;*/
+height: 450%;
+width: 100%;
+/*background-color: e5e0e0;*/
+}
+
+#heading{
+text-align: center;
+font-size: 40px;
+text-shadow : -25px -20px 7px gray;
+}
+
+#tra1{
+display: flex;
+margin: 150px 0px;
+}
+
+#img1{
+/*border: 2px solid red;*/
+margin: 0px 50px;
+}
+
+#img1 img{
+height: 86%;
+width: 98%;
+}
+
+#img1 h2{
+text-align: center;
+font-size: 35px;
+margin: 7px -8px;
+}
+
+#txt1{
+width: 60%;
+margin: 0px 50px;
+font-size: 30px;
+}
+
+#tra2{
+display: flex;
+margin: 150px 0px;
+}
+
+#img2{
+/*border: 2px solid red;*/
+margin: 0px 50px;
+}
+
+#img2 img{
+height: 90%;
+width: 100%;
+}
+
+#img2 h2{
+text-align: center;
+font-size: 35px;
+margin: 7px -8px;
+}
+
+#txt2{
+width: 60%;
+margin: 0px 50px;
+font-size: 30px;
+}
+
+#tra3{
+display: flex;
+margin: 150px 0px;
+}
+
+#img3{
+/*border: 2px solid red;*/
+margin: 0px 50px;
+}
+
+#img3 img{
+height: 86%;
+width: 120%;
+}
+
+#img3 h2{
+text-align: center;
+font-size: 35px;
+margin: 7px -8px;
+}
+
+#txt3{
+width: 60%;
+margin: 0px 50px;
+font-size: 30px;
+}
+
+#tra4{
+display: flex;
+margin: 150px 0px;
+}
+
+#img4{
+/*border: 2px solid red;*/
+margin: 0px 50px;
+}
+
+#img4 img{
+height: 86%;
+width: 120%;
+}
+
+#img4 h2{
+text-align: center;
+font-size: 35px;
+margin: 7px -8px;
+}
+
+#txt4{
+width: 60%;
+margin: 0px 50px;
+font-size: 30px;
+}
+
+#tra5{
+display: flex;
+margin: 150px 0px;
+}
+
+#img5{
+/*border: 2px solid red;*/
+margin: 0px 50px;
+}
+
+#img5 img{
+height: 66%;
+width: 88%;
+margin: 3px 0px;
+} 
+
+#img5 h2{
+text-align: center;
+font-size: 35px;
+margin: 7px 10px;
+}
+
+#txt5{
+width: 60%;
+margin: 0px 50px;
+font-size: 30px;
+}
+
+/* Regitration Form for Joining Yoga Camp.*/
+#registrantion{
+/*border: 2px solid red;*/
+margin: -150px 43px;
+padding: 0px 100px;
+height: 40%;
+}
+
+#registrantion h3{
+text-align: center;
+font-size: 40px;
+text-shadow : -25px -20px 7px gray;
+}
+
+#par{
+text-align: left;
+font-size: 30px;
+margin: 100px 10px;
+}
+
+#par p span{
+font-size: 32px;
+font-weight: bold;
+text-decoration: underline;
+}
+
+#form{
+/*border: 2px solid black;*/
+text-align: left;
+padding: 20px 25%;
+margin: -10px auto;
+}
+
+#form form div{
+font-weight: bold;
+font-size: 25px;
+}
+
+#form form input{
+padding: 2px 8px;
+height: 37px;
+width: 480px;
+font-size: 18px;
+margin: 10px auto;
+}
+
+#form form input[type='radio']{
+height: 27px;
+width: 27px;
+}
+
+.gender{
+font-size: 27px;
+}
+
+.button{
+text-decoration: none;
+background-color: orange;
+font-size: 20px;
+color: white;
+padding: 8px 204px;
+border-radius: 260px;
+margin: 10px 0px;
+border: none;
+}
+
+.button:hover{
+background-color: f9d48f;
+color: orange;
+font-weight: bold;
+}
+
+/*About us section css*/
+
+#about{
+/*border: 2px solid red;*/
+margin: 40px auto;
+padding: 40px 0px;
+}
+
+#about h3{
+font-weight: bold;
+text-align: center;
+font-size: 40px;
+text-shadow : -25px -20px 7px gray;
+}
+
+#details{
+/*border: 2px dotted green;*/
+display: flex;
+}
+
+.details{
+/*border:2px solid black;   */
+height: 400px;
+margin: 50px 25px;
+}
+
+#aboutstd{
+width: 644px;
+padding: 30px 30px;
+font-size: 28px;
+line-height: 35px;
+}
+
+#studio{
+width: 644px;
+padding: 0px 0px;
+height: 456px;
+}
+
+#studio img{
+width: 644px;
+height: 456px;
+border-radius: 15%;
+box-shadow : -8px -10px 25px 15px gray;
+}
+
+#ourtra{
+/*border: 2px solid red;*/
+}
+
+#ourtra1{
+display: flex;
+}
+
+.ourtra{
+/*border: 2px solid red;*/
+margin: 50px 80px;
+height: 500px;
+width: 296px;
+}
+
+.ourtra img{
+height: 300px;
+width: 296px;
+border-radius: 10%;
+}
+
+.ourtra h4{
+font-weight: bold;
+text-align: center;
+font-size: 30px;
+}
+
+.ourtra a{
+font-size: 22px;
+text-decoration: none;
+color: black;
+background-color: green;
+border: 2px solid black;
+margin: 0px 50px;
+padding: 20px 40px;
+border-top-left-radius: 55%;
+border-bottom-right-radius: 55%;
+}
+
+.ourtra a:hover{
+background-color: e5e0e0;
+}
+
+/* Contact us Section Start */
+
+#contact{
+height:26%;
+/*border: 2px dotted black;*/
+}
+
+#contact h3{
+font-weight: bold;
+text-align: center;
+font-size: 40px;
+text-shadow : -25px -20px 7px gray;
+}
+
+#contact1{
+display: flex;
+/*border: 2px solid green;*/
+margin: 100px auto;
+}
+
+.contact{
+/*border: 2px dashed black;*/
+margin: 10px auto;
+height: 500px;
+width: 550px;
+}
+
+#form1{
+/*border: 2px solid black;*/
+text-align: left;
+padding: 0px 0px;
+}
+
+#form1 form input{
+padding: 2px 8px;
+height: 37px;
+width: 480px;
+font-size: 18px;
+margin: 10px 40px;
+}
+
+#form1 form textarea{
+padding: 2px 8px;
+height: 240px;
+width: 480px;
+font-size: 28px;
+margin: 10px 40px;
+}
+
+#form1 a {
+margin: 10px 61px;
+padding: 8px 182px;
+font-size: 15;
+background-color: 26c6da;
+}
+
+#form1 a:hover{
+background-color: white;
+border: 1px solid black;
+}
+
+#googleMap{
+width:100%;
+height:325px;
+border-radius: 15%;
+box-shadow : -8px -10px 25px 15px gray;
+margin: 20px 0px;
+}
+
+#social{
+font-size: 20px;
+}
+
+#social img{
+height: 50px;
+width: 50%;
+margin: 10px 150px;
+cursor: pointer;
+}
